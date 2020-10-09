@@ -1,0 +1,36 @@
+body {
+    
+    background: #FFFF66;
+  }
+
+  li {
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #enterburgers {
+    padding: 5px;
+    margin: 5px;
+    background: #FFFF66;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  h2{
+    text-align: center;
+}
+
+.form-group {
+    text-align: center;
+}
+
+img{
+    border: 1px #FFFF66;
+  border-radius: 1px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}

@@ -1,0 +1,23 @@
+
+<h1>Eat-da-Burger!</h1>
+<img src="https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/uh59Wh0/burger-icon-cartoon-illustration-hand-drawn-animation-transparent-icon-cartoon-illustration-hand-drawn-animation-transparent_eympmud_thumbnail-1080_10.png" alt="burger"></img>
+<h2>Enter your choice of burger:</h2>
+<form id="enterburgers">
+
+  <div class="form-group">
+    <label for="bu">Burger Name:</label>
+    <input type="text" id="bu" name="burger_name"></input>
+    
+<li>
+  {{burger_name}}
+  <button class="devour-pass" data-id="{{id}}" data-newBurger="{{devour}}">
+    {{#if devour}}Delete burger!{{else}}devour burger{{/if}}
+  </button>
+  <button id="deleteburger" datat-id="{{this.id}}">Delete burger</button>
+</li>
+
+ <ul>
+ 
+  <button id="submitbtn" type="submit">Submit burger</button>
+</form>
+ </div>
